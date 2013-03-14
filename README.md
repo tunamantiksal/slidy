@@ -1,9 +1,7 @@
 slidy v2
 
 <code>
-
-<script type="text/javascript">
-  
+ 
   $('#slidy').slidy({
   		width: 600,
   		height: 421,
@@ -11,8 +9,6 @@ slidy v2
   		thumb: true,
   		thumb_position: 'center'
 	});
-	
-</script>
 
 </code>
 
