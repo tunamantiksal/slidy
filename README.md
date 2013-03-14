@@ -2,7 +2,7 @@ slidy v2
 
 <code>
  
-  $('#slidy').slidy({
+  	$('#slidy').slidy({
   		width: 600,
   		height: 421,
   		delay: 5000, //min 5000
