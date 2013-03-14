@@ -1,0 +1,60 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+	background: url('../images/bg_01.jpg');
+}
+h2 {
+	font-family: 'Fugaz One', cursive;
+	font-size: 28px;
+}
+.slidy {
+	width: 600px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow:  0px 1px 4px 1px rgba(0, 0, 0, 0.6);
+    box-shadow:  0px 1px 4px 1px rgba(0, 0, 0, 0.6);
+}
+.slidy-content-container {
+	background-color: #333;
+}
+.slidy-content {
+	background-color: #333;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.slidy-thumbnail-container {
+	position: absolute;
+	bottom: 5px;
+	width: auto;
+}
+.slidy-thumbnail {
+	cursor: pointer;
+	margin: 2px;
+	width: 12px;
+	height: 12px;
+	background-color: #555;
+	float: left;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.6);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.slidy-thumbnail:hover {
+	background-color: #CCC;
+}
+.slidy-thumbnail img {
+	display: none;
+	margin-top: 90px;
+	border: 1px solid #FFF;
+}
+.slidy-current-thumb {
+	background-color: #FFF;
+}
