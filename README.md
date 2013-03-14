@@ -1,6 +1,5 @@
 slidy v2
 
-<code>
  
   	$('#slidy').slidy({
   		width: 600,
@@ -10,7 +9,6 @@ slidy v2
   		thumb_position: 'center'
 	});
 
-</code>
 
 <a href="http://www.netstil.com.tr/plugins/slidy.v1/">Demo v1</a> - 
 <a href="http://www.netstil.com.tr/plugins/slidy.v2/">Demo v2</a>
