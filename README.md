@@ -1,4 +1,4 @@
-slidy v2
+<h2>slidy v2<h2>
 
  
   	$('#slidy').slidy({
